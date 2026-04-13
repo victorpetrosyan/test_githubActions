@@ -6,7 +6,7 @@ on:
 jobs:
   stage:
      runs-on: 
-       labels: x1-test
+       labels: victor-vm-kube-master
      steps:
       - name: Checkout repository
         uses: actions/checkout@v2
