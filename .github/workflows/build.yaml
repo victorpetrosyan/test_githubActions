@@ -5,7 +5,8 @@ on:
     - "main"
 jobs:
   stage:
-     runs-on: self-hosted
+     runs-on: 
+       labels: x1-test
      steps:
       - name: Checkout repository
         uses: actions/checkout@v2
