@@ -1,0 +1,13 @@
+{
+  "name": "simple-ci-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for GitHub Actions CI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "build": "echo \"Build step (nothing to compile)\""
+  },
+  "author": "",
+  "license": "MIT"
+}
